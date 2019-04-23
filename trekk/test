@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <utbetalinger>
-	<utbetaling>
-		<ansattid>Sap1234</ansattid>
-		<utbetaltbelop>946.3546</utbetaltbelop>
-		<forsystemref>MU100008846</forsystemref>
-	</utbetaling>
-	<utbetaling>
-		<ansattid>Sap9988</ansattid>
-		<utbetaltbelop>1000054</utbetaltbelop>
-		<forsystemref>U151853153</forsystemref>
-	</utbetaling>
-	<utbetaling>
-		<ansattid>Sap1234</ansattid>
-		<utbetaltbelop>1300.44</utbetaltbelop>
-		<forsystemref>MU8888888</forsystemref>
-	</utbetaling>
+  <utbetaling>
+    <ansattid>Sap1234</ansattid>
+    <utbetaltbelop>946.3546</utbetaltbelop>
+    <forsystemref>MU100008846</forsystemref>
+  </utbetaling>
+  <utbetaling>
+    <ansattid>Sap9988</ansattid>
+    <utbetaltbelop>1000054</utbetaltbelop>
+    <forsystemref>U151853153</forsystemref>
+  </utbetaling>
+  <utbetaling>
+    <ansattid>Sap1234</ansattid>
+    <utbetaltbelop>1300.44</utbetaltbelop>
+    <forsystemref>MU8888888</forsystemref>
+  </utbetaling>
 </utbetalinger>
