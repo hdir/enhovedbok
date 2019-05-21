@@ -6,7 +6,7 @@ public class TrekkKvitteringNav
 
     public decimal OpprinneligBelop { get; set; }
 
-    public decimal TrukkerBelop { get; set; }
+    public decimal TrukketBelop { get; set; }
 
     public DateTime SapTrekkDato { get; set; }
 }
