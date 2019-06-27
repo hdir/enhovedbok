@@ -1,4 +1,4 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://dfo.no/utleggstrekk">
   <xs:element name="kontakter">
     <xs:complexType>
       <xs:sequence>
