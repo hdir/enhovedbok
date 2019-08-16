@@ -1,0 +1,11 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://dfo.no/utleggstrekk">
+  <xs:element name="kvittering">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="filnavn"/>
+        <xs:element type="xs:dateTime" name="datoSendt"/>
+        <xs:element type="xs:string" name="status"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
