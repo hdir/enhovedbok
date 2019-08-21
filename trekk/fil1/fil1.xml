@@ -1,16 +1,9 @@
-    
 <?xml version="1.0" encoding="utf-8"?>
-<kontakter>
-  <kontakt>
-    <personid>01010134567</personid>
+<kontakter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://dfo.no/utleggstrekk">
+  <kontakt xmlns="">
+    <personid>12345678901</personid>
     <ansattid>sap1234</ansattid>
     <belopstrekk>false</belopstrekk>
     <prosenttrekk>true</prosenttrekk>
-  </kontakt>
-  <kontakt>
-    <personid>02020234567</personid>
-    <ansattid>sap5678</ansattid>
-    <belopstrekk>true</belopstrekk>
-    <prosenttrekk>false</prosenttrekk>
   </kontakt>
 </kontakter>
