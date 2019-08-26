@@ -1,0 +1,24 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://dfo.no/utleggstrekk">
+  <xs:element name="resultat_etter_lonnskjoring">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="utbetaling" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="ansattid" />
+              <xs:element type="xs:string" name="fodselsnummer" minOccurs="0" maxOccurs="1" />
+              <xs:element type="xs:string" name="forsystemref" minOccurs="0" maxOccurs="1" />
+              <xs:element type="xs:string" name="trekkidsap" minOccurs="0" maxOccurs="1" />
+              <xs:element type="xs:decimal" name="saldo_inn" minOccurs="0" maxOccurs="1" />
+              <xs:element type="xs:decimal" name="saldo_ut" minOccurs="0" maxOccurs="1" />
+              <xs:element type="xs:string" name="utbetalingsdato" minOccurs="0" maxOccurs="1" />
+              <xs:element type="xs:decimal" name="trekkbelop" />
+              <xs:element type="xs:string" name="trekktype" minOccurs="0" maxOccurs="1" />
+              <xs:element type="xs:string" name="trekkdato" minOccurs="0" maxOccurs="1" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
