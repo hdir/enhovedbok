@@ -1,11 +1,17 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://dfo.no/utleggstrekk">
-  <xs:element name="kvittering">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element type="xs:string" name="filnavn"/>
-        <xs:element type="xs:dateTime" name="datoSendt"/>
-        <xs:element type="xs:string" name="status"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+   <xs:element name="utleggstrekk_respons">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="respons" maxOccurs="unbounded" minOccurs="0">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element type="xs:string" name="meldingskode" />
+                       <xs:element type="xs:string" name="meldingstekst" minOccurs="0" maxOccurs="1" />
+                       <xs:element type="xs:string" name="dato" minOccurs="0" maxOccurs="1" />
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
 </xs:schema>
