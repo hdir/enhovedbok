@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resultat_etter_lonnskjoring xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://dfo.no/utleggstrekk">
+  <utbetaling xmlns="">
+    <ansattid>SAP123</ansattid>
+    <forsystemref>U1</forsystemref>
+    <trekkidsap>123</trekkidsap>
+    <saldo_inn>1000</saldo_inn>
+    <saldo_ut>600</saldo_ut>
+    <utbetalingsdato>2019-08-28 00:00:00Z</utbetalingsdato>
+    <trekkbelop>400</trekkbelop>
+    <trekkdato>2019-08-27 00:00:00Z</trekkdato>
+  </utbetaling>
+</resultat_etter_lonnskjoring>
