@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <utleggstrekk_respons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://dfo.no/utleggstrekk">
   <respons xmlns="">
-    <meldingskode>str1234</meldingskode>
-    <meldingstekst>str1234</meldingstekst>
-    <dato>str1234</dato>
+    <meldingskode>OK</meldingskode>
+    <meldingstekst>Bra jobbet</meldingstekst>
+    <dato>2019-08-28 00:00:00Z</dato>
   </respons>
 </utleggstrekk_respons>
