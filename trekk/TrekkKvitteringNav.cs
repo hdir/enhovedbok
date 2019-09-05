@@ -6,8 +6,6 @@ public class TrekkKvitteringNav
     public int SystemId { get; set; }
 
     public string[] ForsystemReferanser { get; set; }
-    
-    public string[] TrekkTyper { get; set; }
 
     public decimal TotaltOpprinneligBelop { get; set; }
 
