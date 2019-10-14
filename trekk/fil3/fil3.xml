@@ -2,13 +2,13 @@
 <ns0:resultat_etter_lonnskjoring
 	xmlns:ns0="http://dfo.no/utleggstrekk">
   <utbetaling>
-    <ansattid>00126534</ansattid>
-    <forsystemref>U100001793235539-3</forsystemref>
+    <ansattid>0044555</ansattid>
+    <forsystemref>U100415151-3</forsystemref>
     <saldo_inn>73737.00 </saldo_inn>
     <saldo_ut>51616.00 </saldo_ut>
     <trekkbelop>22121.00 </trekkbelop>
     <oppsummering>
-      <total_forsystemref>U100001793235539-3</total_forsystemref>
+      <total_forsystemref>U100415151-3</total_forsystemref>
       <total_trekkidsap>Påleggstrekk 1</total_trekkidsap>
       <total_trekkmaaned>09.2019</total_trekkmaaned>
       <trekk>
@@ -19,30 +19,13 @@
     </oppsummering>
   </utbetaling>
   <utbetaling>
-    <ansattid>00126535</ansattid>
-    <forsystemref>U100001793235391-3</forsystemref>
-    <saldo_inn>138501.80 </saldo_inn>
-    <saldo_ut>138501.80 </saldo_ut>
-    <trekkbelop>0 </trekkbelop>
-    <oppsummering>
-      <total_forsystemref>U100001793235391-3</total_forsystemref>
-      <total_trekkidsap>Inkassotrekk 1</total_trekkidsap>
-      <total_trekkmaaned>09.2019</total_trekkmaaned>
-      <trekk>
-        <total_trekktype>Inkassotrekk 1</total_trekktype>
-        <total_trekkbelop>8000.00-</total_trekkbelop>
-        <total_saldo_trekktype>40000.00 </total_saldo_trekktype>
-      </trekk>
-    </oppsummering>
-  </utbetaling>
-  <utbetaling>
-    <ansattid>00126536</ansattid>
-    <forsystemref>U100001793235414-3</forsystemref>
+    <ansattid>0088888</ansattid>
+    <forsystemref>U100002222-3</forsystemref>
     <saldo_inn>154200.00 </saldo_inn>
     <saldo_ut>154200.00 </saldo_ut>
     <trekkbelop>0 </trekkbelop>
     <oppsummering>
-      <total_forsystemref>U100001793235414-3</total_forsystemref>
+      <total_forsystemref>U100002222-3</total_forsystemref>
       <total_trekkidsap>Påleggstrekk 1</total_trekkidsap>
       <total_trekkmaaned>09.2019</total_trekkmaaned>
       <trekk>
@@ -53,29 +36,13 @@
     </oppsummering>
   </utbetaling>
   <utbetaling>
-    <ansattid>00126537</ansattid>
-    <forsystemref></forsystemref>
-    <saldo_inn>0 </saldo_inn>
-    <saldo_ut>0 </saldo_ut>
-    <trekkbelop>0 </trekkbelop>
-    <oppsummering>
-      <total_forsystemref>U100001793235437-1</total_forsystemref>
-      <total_trekkidsap>Bidragstrekk</total_trekkidsap>
-      <total_trekkmaaned>09.2019</total_trekkmaaned>
-      <trekk>
-        <total_trekktype>Bidragstrekk</total_trekktype>
-        <total_trekkbelop>20000.00-</total_trekkbelop>
-      </trekk>
-    </oppsummering>
-  </utbetaling>
-  <utbetaling>
-    <ansattid>00126538</ansattid>
-    <forsystemref>U100001793235574-3</forsystemref>
+    <ansattid>0094562</ansattid>
+    <forsystemref>U100007777777-3</forsystemref>
     <saldo_inn>25426.00 </saldo_inn>
     <saldo_ut>17798.00 </saldo_ut>
     <trekkbelop>7628.00 </trekkbelop>
     <oppsummering>
-      <total_forsystemref>U100001793235574-3</total_forsystemref>
+      <total_forsystemref>U100007777777-3</total_forsystemref>
       <total_trekkidsap>Inkassotrekk 1,Påleggstrekk 1</total_trekkidsap>
       <total_trekkmaaned>09.2019</total_trekkmaaned>
       <trekk>
@@ -91,13 +58,13 @@
     </oppsummering>
   </utbetaling>
   <utbetaling>
-    <ansattid>00126539</ansattid>
-    <forsystemref>U100001793235563-3</forsystemref>
+    <ansattid>0011111</ansattid>
+    <forsystemref>U1000012222-3</forsystemref>
     <saldo_inn>26840.00 </saldo_inn>
     <saldo_ut>18788.00 </saldo_ut>
     <trekkbelop>8052.00 </trekkbelop>
     <oppsummering>
-      <total_forsystemref>U100001793235563-3</total_forsystemref>
+      <total_forsystemref>U1000012222-3</total_forsystemref>
       <total_trekkidsap>Bidragstrekk,Inkassotrekk 1,Påleggstrekk 1</total_trekkidsap>
       <total_trekkmaaned>09.2019</total_trekkmaaned>
       <trekk>
@@ -117,13 +84,13 @@
     </oppsummering>
   </utbetaling>
   <utbetaling>
-    <ansattid>00126540</ansattid>
-    <forsystemref>U100001793235455-3</forsystemref>
+    <ansattid>0033333</ansattid>
+    <forsystemref>U10000A22-3</forsystemref>
     <saldo_inn>151070.00 </saldo_inn>
     <saldo_ut>105749.00 </saldo_ut>
     <trekkbelop>45321.00 </trekkbelop>
     <oppsummering>
-      <total_forsystemref>U100001793235455-3, U100001793135455-1, U10000179333345-2</total_forsystemref>
+      <total_forsystemref>U10000A22-3, U9999-1, UBBB222-2</total_forsystemref>
       <total_trekkidsap>Bidragstrekk,Inkassotrekk 1,Påleggstrekk 1</total_trekkidsap>
       <total_trekkmaaned>09.2019</total_trekkmaaned>
       <trekk>
