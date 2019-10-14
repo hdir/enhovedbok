@@ -6,7 +6,6 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:string" name="ansattid" />
-              <xs:element type="xs:string" name="fodselsnummer" minOccurs="0" maxOccurs="1" />
               <xs:element type="xs:string" name="forsystemref" minOccurs="0" maxOccurs="1" />
               <xs:element type="xs:string" name="trekkidsap" minOccurs="0" maxOccurs="1" />
               <xs:element type="xs:decimal" name="saldo_inn" minOccurs="0" maxOccurs="1" />
@@ -15,6 +14,24 @@
               <xs:element type="xs:decimal" name="trekkbelop" />
               <xs:element type="xs:string" name="trekktype" minOccurs="0" maxOccurs="1" />
               <xs:element type="xs:string" name="trekkdato" minOccurs="0" maxOccurs="1" />
+              <xs:element name="oppsummering" minOccurs="0" maxOccurs="1" >
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="total_forsystemref" minOccurs="0" maxOccurs="1" />
+                    <xs:element type="xs:string" name="total_trekkidsap" minOccurs="0" maxOccurs="1" />
+                    <xs:element type="xs:string" name="total_trekkmaaned" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="trekk" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="total_trekktype" minOccurs="0" maxOccurs="1" />
+                          <xs:element type="xs:string" name="total_trekkbelop" minOccurs="0" maxOccurs="1" />
+                          <xs:element type="xs:string" name="total_saldo_trekktype" minOccurs="0" maxOccurs="1" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
