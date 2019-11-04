@@ -20,6 +20,9 @@ public class TrekkMeldingDto
 
     [JsonProperty(PropertyName = "sapTrekkDato")]
     public DateTime SapTrekkDato { get; set; }
+    
+    [JsonProperty(PropertyName = "kjorenummer")]
+    public string Kjorenummer { get; set; }
 
     [JsonProperty(PropertyName = "trekk", NullValueHandling = NullValueHandling.Ignore)]
     public TrekkTypeOppsummeringDto[] Trekk { get; set; }
