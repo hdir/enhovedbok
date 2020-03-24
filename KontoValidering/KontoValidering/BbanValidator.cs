@@ -15,7 +15,6 @@ namespace KontoValidering
         /// </summary>
         /// <param name="bban">BBAN konto</param>
         /// <param name="gyldigeLandkoder">Hentes fra ssb http://data.ssb.no/api/klass/v1/classifications/100/codes.json?from={dato}</param>
-        /// <returns></returns>
         public static bool GyldigBban(Bban bban, HashSet<string> gyldigeLandkoder)
         {
             return !string.IsNullOrWhiteSpace(bban.Kontonummer)
@@ -27,8 +26,8 @@ namespace KontoValidering
 
         /// <summary>
         /// Eksempel kode for å hente ssb koder. I virkeligheten vil landkodene fra ssb bli håndtert av en annen applikasjon som cacher dette for oss
+        /// Det er ikke anbefalt å instansiere httpclient på samme måte som i eksempelet under :)
         /// </summary>
-        /// <returns></returns>
         public static async Task<HashSet<string>> HentSsbLandkoder()
         {
             using var httpClient = new HttpClient();
