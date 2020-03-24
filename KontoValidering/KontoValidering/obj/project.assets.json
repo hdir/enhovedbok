@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\s\\play\\KontoValidering\\KontoValidering\\KontoValidering.csproj",
+      "projectUniqueName": "D:\\s\\play\\enhovedbok\\KontoValidering\\KontoValidering\\KontoValidering.csproj",
       "projectName": "KontoValidering",
-      "projectPath": "D:\\s\\play\\KontoValidering\\KontoValidering\\KontoValidering.csproj",
+      "projectPath": "D:\\s\\play\\enhovedbok\\KontoValidering\\KontoValidering\\KontoValidering.csproj",
       "packagesPath": "C:\\Users\\admcgunv\\.nuget\\packages\\",
-      "outputPath": "D:\\s\\play\\KontoValidering\\KontoValidering\\obj\\",
+      "outputPath": "D:\\s\\play\\enhovedbok\\KontoValidering\\KontoValidering\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
