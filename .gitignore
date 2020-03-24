@@ -1,0 +1,38 @@
+# Bruker spesifikke filer
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]estResults/
+
+#Visualstudio
+.vs
+*.vssscc
+*.dgml
+
+# Jetbrains Rider
+.idea
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+*.ncrunchsolution
+*.ncrunchproject
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
